@@ -1,7 +1,7 @@
 <annotation>
-	<folder>new</folder>
+	<folder>train</folder>
 	<filename>7.jpg</filename>
-	<path>C:\Users\duynn_1\Desktop\train\new\7.jpg</path>
+	<path>/home/pot/Desktop/project/artificial-intelligence/workspace/discharge_record/images/train/7.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -66,9 +66,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>293</xmin>
-			<ymin>221</ymin>
+			<ymin>220</ymin>
 			<xmax>533</xmax>
-			<ymax>256</ymax>
+			<ymax>255</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -342,9 +342,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>221</xmin>
-			<ymin>282</ymin>
+			<ymin>281</ymin>
 			<xmax>264</xmax>
-			<ymax>312</ymax>
+			<ymax>311</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -354,20 +354,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>290</xmin>
-			<ymin>285</ymin>
+			<ymin>284</ymin>
 			<xmax>333</xmax>
-			<ymax>315</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>come_time</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>353</xmin>
-			<ymin>285</ymin>
-			<xmax>404</xmax>
 			<ymax>314</ymax>
 		</bndbox>
 	</object>
@@ -377,10 +365,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
+			<xmin>353</xmin>
+			<ymin>284</ymin>
+			<xmax>404</xmax>
+			<ymax>313</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>come_time</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
 			<xmin>459</xmin>
-			<ymin>290</ymin>
+			<ymin>285</ymin>
 			<xmax>510</xmax>
-			<ymax>319</ymax>
+			<ymax>314</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -390,9 +390,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>539</xmin>
-			<ymin>288</ymin>
+			<ymin>287</ymin>
 			<xmax>575</xmax>
-			<ymax>315</ymax>
+			<ymax>314</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -402,9 +402,9 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>594</xmin>
-			<ymin>289</ymin>
+			<ymin>286</ymin>
 			<xmax>652</xmax>
-			<ymax>318</ymax>
+			<ymax>315</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -413,9 +413,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>681</xmin>
+			<xmin>680</xmin>
 			<ymin>287</ymin>
-			<xmax>718</xmax>
+			<xmax>717</xmax>
 			<ymax>317</ymax>
 		</bndbox>
 	</object>

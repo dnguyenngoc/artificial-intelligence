@@ -1,7 +1,7 @@
 <annotation>
-	<folder>new</folder>
+	<folder>train</folder>
 	<filename>8.jpg</filename>
-	<path>C:\Users\duynn_1\Desktop\train\new\8.jpg</path>
+	<path>/home/pot/Desktop/project/artificial-intelligence/workspace/discharge_record/images/train/8.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -69,18 +69,6 @@
 			<ymin>213</ymin>
 			<xmax>374</xmax>
 			<ymax>237</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>641</xmin>
-			<ymin>237</ymin>
-			<xmax>692</xmax>
-			<ymax>260</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -233,58 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>692</xmin>
-			<ymin>237</ymin>
-			<xmax>725</xmax>
-			<ymax>261</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>722</xmin>
-			<ymin>236</ymin>
-			<xmax>755</xmax>
-			<ymax>260</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>759</xmin>
-			<ymin>236</ymin>
-			<xmax>792</xmax>
-			<ymax>260</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>793</xmin>
-			<ymin>235</ymin>
-			<xmax>837</xmax>
-			<ymax>259</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>841</xmin>
-			<ymin>234</ymin>
-			<xmax>900</xmax>
-			<ymax>260</ymax>
+			<xmin>634</xmin>
+			<ymin>232</ymin>
+			<xmax>903</xmax>
+			<ymax>263</ymax>
 		</bndbox>
 	</object>
 	<object>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>new</folder>
+	<folder>train</folder>
 	<filename>5.jpg</filename>
-	<path>C:\Users\duynn_1\Desktop\train\new\5.jpg</path>
+	<path>/home/pot/Desktop/project/artificial-intelligence/workspace/discharge_record/images/train/5.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,9 +29,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>668</xmin>
+			<xmin>669</xmin>
 			<ymin>154</ymin>
-			<xmax>699</xmax>
+			<xmax>696</xmax>
 			<ymax>180</ymax>
 		</bndbox>
 	</object>
@@ -57,18 +57,6 @@
 			<ymin>172</ymin>
 			<xmax>189</xmax>
 			<ymax>198</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>306</xmin>
-			<ymin>200</ymin>
-			<xmax>344</xmax>
-			<ymax>229</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -233,58 +221,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>351</xmin>
-			<ymin>202</ymin>
-			<xmax>381</xmax>
-			<ymax>229</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>381</xmin>
-			<ymin>201</ymin>
-			<xmax>421</xmax>
-			<ymax>229</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>423</xmin>
-			<ymin>202</ymin>
-			<xmax>462</xmax>
-			<ymax>229</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>457</xmin>
-			<ymin>203</ymin>
-			<xmax>498</xmax>
-			<ymax>229</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>id</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>498</xmin>
-			<ymin>204</ymin>
-			<xmax>554</xmax>
-			<ymax>231</ymax>
+			<xmin>303</xmin>
+			<ymin>198</ymin>
+			<xmax>553</xmax>
+			<ymax>236</ymax>
 		</bndbox>
 	</object>
 	<object>

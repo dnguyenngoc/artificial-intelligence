@@ -1,7 +1,7 @@
 <annotation>
 	<folder>train</folder>
 	<filename>2.jpg</filename>
-	<path>C:\Users\duynn_1\Desktop\train\2.jpg</path>
+	<path>/home/pot/Desktop/project/artificial-intelligence/workspace/discharge_record/images/train/2.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -77,8 +77,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>272</xmin>
-			<ymin>272</ymin>
+			<xmin>267</xmin>
+			<ymin>268</ymin>
 			<xmax>422</xmax>
 			<ymax>296</ymax>
 		</bndbox>
