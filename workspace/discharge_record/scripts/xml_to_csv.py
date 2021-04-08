@@ -2,6 +2,19 @@ import os
 import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
+from tensorflow.python.framework.versions import VERSION
+if VERSION >= "2.0.0a0":
+    import tensorflow.compat.v1 as tf
+else:
+    import tensorflow as tf
+
+
+flags = tf.app.flags
+flags.DEFINE_string('xml_folder', '', 'Path to xml')
+flags.DEFINE_string('type_data', '', 'train or test')
+flags.DEFINE_string('csv_out', '', 'out_path')
+
+FLAGS = flags.FLAGS
 
 
 def xml_to_csv(path):
@@ -26,11 +39,9 @@ def xml_to_csv(path):
 
 
 def main():
-    for folder in ['train','test']:
-        image_path = os.path.join('/home/pot/Desktop/artificial_intelligence/workspace/discharge_record', ('images/' + folder))
-        xml_df = xml_to_csv(image_path)
-        xml_df.to_csv(('/home/pot/Desktop/artificial_intelligence/workspace/discharge_record/images/' + folder + '_labels.csv'), index=None)
-        print('Successfully converted xml to csv.')
+    xml_df = xml_to_csv(FLAGS.xml_folder)
+    xml_df.to_csv((FLAGS.csv_out + '/' + FLAGS.type_data + '_labels.csv'), index=None)
+    print('Successfully converted xml to csv.')
 
 
 main()

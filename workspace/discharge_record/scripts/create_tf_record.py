@@ -17,11 +17,10 @@ from object_detection.utils import dataset_util
 from collections import namedtuple, OrderedDict
 
 
-type_make = 'test'
 flags = tf.app.flags
-flags.DEFINE_string('csv_input', '/home/pot/Desktop/artificial_intelligence/workspace/discharge_record/images/{}_labels.csv'.format(type_make), 'Path to the CSV input')
-flags.DEFINE_string('image_dir', '/home/pot/Desktop/artificial_intelligence/workspace/discharge_record/images/{}'.format(type_make), 'Path to the image directory')
-flags.DEFINE_string('output_path', '/home/pot/Desktop/artificial_intelligence/workspace/discharge_record/annotations/{}.record'.format(type_make), 'Path to output TFRecord')
+flags.DEFINE_string('csv_input', '', 'Path to the CSV input')
+flags.DEFINE_string('image_dir', '', 'Path to the image directory')
+flags.DEFINE_string('output_path', '', 'Path to output TFRecord')
 FLAGS = flags.FLAGS
 
 
